@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.uzbot_data_limit_lexicon"><![CDATA[Lexikon-Einträge]]></item>
+		<item name="wcf.acp.option.uzbot_data_limit_lexicon.description"><![CDATA[Anzahl der Lexikon-Einträge, die bei jedem Bot-Durchlauf bearbeitet werden (Modifizierung).]]></item>
+	</category>
+	
+	<category name="wcf.acp.uzbot">
+		<item name="wcf.acp.uzbot.log.lexicon.entry.modified"><![CDATA[{$action} - betroffene Einträge: {$entryIDs}]]></item>
+		<item name="wcf.acp.uzbot.log.lexicon.entry.affected"><![CDATA[Anzahl der betroffene Einträge gemäß Bedingungen: {$count}]]></item>
+		<item name="wcf.acp.uzbot.type.lexicon_change"><![CDATA[Lexikon - Eintrag - Änderung]]></item>
+		<item name="wcf.acp.uzbot.type.lexicon_modification"><![CDATA[Lexikon - Eintrag - Modifizierung]]></item>
+		<item name="wcf.acp.uzbot.type.lexicon_new"><![CDATA[Lexikon - Eintrag - Neu]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.action.changed"><![CDATA[geändert]]></item>
+		<item name="wcf.acp.uzbot.lexicon.action.deleted"><![CDATA[gelöscht]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.condition.create"><![CDATA[Tage seit Erstellung]]></item>
+		<item name="wcf.acp.uzbot.lexicon.condition.edit"><![CDATA[Tage seit letzter Änderung]]></item>
+		<item name="wcf.acp.uzbot.lexicon.condition.state"><![CDATA[Status]]></item>
+		<item name="wcf.acp.uzbot.lexicon.condition.state.description"><![CDATA[Status des Eintrags.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.condition.username"><![CDATA[Autor]]></item>
+		<item name="wcf.acp.uzbot.lexicon.condition.username.description"><![CDATA[Benutzername des Autors des Eintrags]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.entryChange.action"><![CDATA[Überwachte Aktionen]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryChange.action.error.notConfigured"><![CDATA[Es muss mindestens eine Aktion ausgewählt werden.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryChange.delete"><![CDATA[Löschen überwachen]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryChange.update"><![CDATA[Ändern überwachen]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action"><![CDATA[Auszuführende Aktion(en)]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.error.notConfigured"><![CDATA[Es muss mindestens eine Aktion ausgewählt werden.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.deleteLabels"><![CDATA[Einträge-Label gelöscht]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.done"><![CDATA[Einträge geschützt]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.undone"><![CDATA[Einträge ungeschützt]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.disable"><![CDATA[Einträge deaktiviert]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.enable"><![CDATA[Einträge aktiviert]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.setLabels"><![CDATA[Einträge-Label gesetzt]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.error.executerInvalid"><![CDATA[Der ausführende Benutzer ist ungülig. Der Bot wurde deaktiviert.]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isCompleted"><![CDATA[Geschützt]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isNotCompleted"><![CDATA[Nicht geschützt]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isCompleted.error.conflict"><![CDATA[„Geschützt“ und „Nicht geschützt“ können nicht gleichzeitig ausgewählt werden.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isDisabled"><![CDATA[Deaktiviert]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isEnabled"><![CDATA[Aktiviert]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isDisabled.error.conflict"><![CDATA[„Deaktiviert“ und „Aktiviert“ können nicht gleichzeitig ausgewählt werden.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.hasLabels"><![CDATA[Hat Label]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.hasNoLabels"><![CDATA[Hat keine Label]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.hasLabels.error.conflict"><![CDATA[„Hat Label“ und „Hat keine Label“ können nicht gleichzeitig ausgewählt werden.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isEdited"><![CDATA[Ist editiert]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isNotEdited"><![CDATA[Ist nicht editiert]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isEdited.error.conflict"><![CDATA[„Ist editiert“ und „Ist nicht editiert“ können nicht gleichzeitig ausgewählt werden.]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.entry.condition"><![CDATA[Eintrag-Bedingungen]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.description"><![CDATA[Nur Einträge, die die nachfolgenden Bedingungen erfüllen, sind von der Aktion betroffen. Werden keine Bedingungen konfiguriert, wird der Bot auf alle Einträge angewendet.]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.entryModification.category"><![CDATA[In Kategorie]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.complete"><![CDATA[Schützen]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.uncomplete"><![CDATA[Schutz aufheben]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.disable"><![CDATA[Deaktivieren]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.enable"><![CDATA[Aktivieren]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.setLabels"><![CDATA[Label setzen]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.executer"><![CDATA[Ausführender Benutzer]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.executer.description"><![CDATA[Dieser Benutzer wird für das Einträge-Änderungsprotokoll benötigt.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.executer.error.empty"><![CDATA[Es muss ein Benutzername angegeben werden.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.executer.error.invalid"><![CDATA[Der Benutzer existiert nicht.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.noFound"><![CDATA[Keine Einträge gefunden.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.setting"><![CDATA[Einstellungen]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.200"><![CDATA[Lexikon - Eintrag - Änderung]]></item>
+		<item name="wcf.acp.uzbot.help.type.200.description"><![CDATA[<p>Dieser Bot überwacht die Änderung oder das Löschen von Einträgen und erstellt eine Benachrichtigung, wenn jemand einen Eintrag ändert oder löscht.</p>
+<p>Der Verfasser des Eintrags ist der betroffene Benutzer und kann direkt adressiert werden.</p>
+<br><p>Durch Konfiguration von Allgemeinen Benutzer-Bedingungen kann die Überwachung auf bestimmte Autoren begrenzt werden.</p>
+<br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[action]</strong></td><td>Ausgeführte Aktion: „geändert“ oder „gelöscht“</td></tr>
+<tr><td><strong>[count]</strong></td><td>Anzahl der geänderten / gelöschten Einträge (immer 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Anzahl der Einträge des betroffenen Benutzers</td></tr>
+<tr><td><strong>[entry-id]</strong></td><td>ID des bearbeiteten Eintrags</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link zum Eintrag</td></tr>
+<tr><td><strong>[entry-subject]</strong></td><td>Titel des Eintrags</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Einfach formatierter Text des Eintrags</td></tr>
+<tr><td><strong>[reason]</strong></td><td>Vom Benutzer angegebener Grund für das Bearbeiten</td></tr>
+<tr><td><strong>[changing-username]</strong></td><td>Name des Bnutzers, der den Eintrag geändert/gelöscht hat</td></tr>
+</table>
+<br><p>Die folgenden allgemeinen Platzhalter stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Datum der Bot-Ausführung</td></tr>
+<tr><td><strong>[time]</strong></td><td>Uhrzeit der Bot-Ausführung</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name dieser Webseite, wie im ACP angegeben</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Benutzername des Empfängers einer Benachrichtigung</td></tr>
+</table>
+<br><p>Die folgenden Benutzer-bezogenen Platzhalter (betroffene Benutzer) stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Alter des Benutzers</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>E-Mail-Adresse des Benutzers</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Namen der Benutzergruppen, denen der Benutzer angehört</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID des Benutzers</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name des Benutzers</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.201"><![CDATA[Lexikon - Eintrag - Modifizierung]]></item>
+		<item name="wcf.acp.uzbot.help.type.201.description"><![CDATA[<p>Dieser Bot modifiziert ausgewählte Einträge und erstellt Benachrichtigungen, wenn eine Aktion auf die betroffenen Einträge angewendet wurde. Die Anzahl der Einträge je Bot-Durchlauf kann konfiguriert werden (Standard: 50).</p>
+<p>Die Verfasser der Einträge sind die betroffenen Benutzer und können direkt adressiert werden.</p>
+<br><p>Es kann mehr als eine Aktion gewählt werden. Die Aktionen werden in der Reihenfolge wie bei der Bot-Konfiguration abgearbeitet.</p>
+<br><p>Hinweis: Es wird für jeden betroffenen Benutzer eine Benachrichtigung erstellt. Dies gilt auch für Benachrichtigungen ohne individuellen Empfänger wie Artikel, Themen oder Beiträge. Abhänging von Konfiguration und Anzahl der modifizierten Einträge können sehr viele Benachrichtigungen erstellt werden.</p>
+<br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[action]</strong></td><td>Aktion (z.B. „aktiviert“, „Label geändert“)</td></tr>
+<tr><td><strong>[count]</strong></td><td>Anzahl der betroffenen Einträge</td></tr>
+<tr><td><strong>[object-ids]</strong></td><td>IDs der modifizierten Einträge</td></tr>
+</table>
+<br><p>Die folgenden allgemeinen Platzhalter stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Datum der Bot-Ausführung</td></tr>
+<tr><td><strong>[time]</strong></td><td>Uhrzeit der Bot-Ausführung</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name dieser Webseite, wie im ACP angegeben</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Benutzername des Empfängers einer Benachrichtigung</td></tr>
+</table>
+<br><p>Die folgenden Benutzer-bezogenen Platzhalter (betroffene Benutzer) stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Alter des Benutzers</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>E-Mail-Adresse des Benutzers</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Namen der Benutzergruppen, denen der Benutzer angehört</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID des Benutzers</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name des Benutzers</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.202"><![CDATA[Lexikon - Eintrag - Neu]]></item>
+		<item name="wcf.acp.uzbot.help.type.202.description"><![CDATA[<p>Dieser Bot überwacht die Veröffentlichung von Einträgen und versendet eine Benachrichtigung, wenn ein Benutzer oder Gast einen neuen Eintrag verfasst hat und dieser veröffentlicht/freigeschaltet wird.</p>
+<p>Der Verfasser des Eintrags ist der betroffene Benutzer und kann direkt adressiert werden.</p>
+<br><p>Durch Konfiguration der Allgemeinen Benutzer-Bedingungen lassen sich gezielt einzelne Benutzer überwachen.</p>
+<br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Anzahl der erstellten Einträge (immer 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Anzahl der durch den betroffenen Benutzer erstellten Einträge (immer 1)</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link zum erstellten Eintrag</td></tr>
+<tr><td><strong>[entry-subject]</strong></td><td>Titel des Eintrags</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Einfach formatierter Text des Eintrags</td></tr>
+</table>
+<br><p>Die folgenden allgemeinen Platzhalter stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Datum der Bot-Ausführung</td></tr>
+<tr><td><strong>[time]</strong></td><td>Uhrzeit der Bot-Ausführung</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name dieser Webseite, wie im ACP angegeben</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Benutzername des Empfängers einer Benachrichtigung</td></tr>
+</table>
+<br><p>Die folgenden Benutzer-bezogenen Platzhalter (betroffene Benutzer) stehen zur Verfügung:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Alter des Benutzers</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>E-Mail-Adresse des Benutzers</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Namen der Benutzergruppen, denen der Benutzer angehört</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID des Benutzers</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name des Benutzers</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
+</table>]]></item>
+	</category>
+</language>

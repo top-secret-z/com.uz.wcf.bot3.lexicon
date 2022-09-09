@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/uzbotType.xsd">
+	<import>
+		<uzbotType name="lexicon_change">
+			<typeID>200</typeID>
+			<application>Lexicon</application>
+			<canCondense>0</canCondense>
+			<hasAffected>1</hasAffected>
+			<allowGuest>1</allowGuest>
+			<canChangeAffected>0</canChangeAffected>
+			<needCount>0</needCount>
+			<needCountAction></needCountAction>
+			<needCountNo></needCountNo>
+			<neededModule></neededModule>
+			<needNotify>1</needNotify>
+			<sortOrder>200</sortOrder>
+		</uzbotType>
+		
+		<uzbotType name="lexicon_modification">
+			<typeID>201</typeID>
+			<application>Lexicon</application>
+			<canCondense>0</canCondense>
+			<hasAffected>1</hasAffected>
+			<allowGuest>1</allowGuest>
+			<canChangeAffected>0</canChangeAffected>
+			<needCount>0</needCount>
+			<needCountAction></needCountAction>
+			<needCountNo></needCountNo>
+			<neededModule></neededModule>
+			<needNotify>0</needNotify>
+			<sortOrder>201</sortOrder>
+		</uzbotType>
+		
+		<uzbotType name="lexicon_new">
+			<typeID>202</typeID>
+			<application>Lexicon</application>
+			<canCondense>0</canCondense>
+			<hasAffected>1</hasAffected>
+			<allowGuest>1</allowGuest>
+			<canChangeAffected>0</canChangeAffected>
+			<needCount>0</needCount>
+			<needCountAction></needCountAction>
+			<needCountNo></needCountNo>
+			<neededModule></neededModule>
+			<needNotify>1</needNotify>
+			<sortOrder>202</sortOrder>
+		</uzbotType>
+	</import>
+</data>

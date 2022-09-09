@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
+	<import>
+		<type>
+			<name>com.uz.wcf.bot.condition.lexiconEntries</name>
+			<definitionname>com.uz.wcf.bot.condition.user</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>lexiconEntries</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- action conditions -->
+		<type>
+			<name>com.uz.wcf.bot.lexicon.username</name>
+			<definitionname>com.uz.wcf.bot.condition.lexicon</definitionname>
+			<classname>lexicon\system\condition\uzbot\UzbotLexiconUsernameCondition</classname>
+			<conditionobject>com.uz.wcf.bot.lexicon</conditionobject>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		
+		<type>
+			<name>com.uz.wcf.bot.lexicon.createTime</name>
+			<definitionname>com.uz.wcf.bot.condition.lexicon</definitionname>
+			<classname>lexicon\system\condition\uzbot\UzbotLexiconCreateDateIntervalCondition</classname>
+			<conditionobject>com.uz.wcf.bot.lexicon</conditionobject>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		
+		<type>
+			<name>com.uz.wcf.bot.lexicon.editTime</name>
+			<definitionname>com.uz.wcf.bot.condition.lexicon</definitionname>
+			<classname>lexicon\system\condition\uzbot\UzbotLexiconEditDateIntervalCondition</classname>
+			<conditionobject>com.uz.wcf.bot.lexicon</conditionobject>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		
+		<type>
+			<name>com.uz.wcf.bot.lexicon.state</name>
+			<definitionname>com.uz.wcf.bot.condition.lexicon</definitionname>
+			<classname>lexicon\system\condition\uzbot\UzbotLexiconStateCondition</classname>
+			<conditionobject>com.uz.wcf.bot.lexicon</conditionobject>
+			<conditiongroup>general</conditiongroup>
+		</type>
+	</import>
+</data>

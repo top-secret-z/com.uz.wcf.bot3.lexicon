@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.uzbot_data_limit_lexicon"><![CDATA[Lexicon Entries]]></item>
+		<item name="wcf.acp.option.uzbot_data_limit_lexicon.description"><![CDATA[Number of lexicon entries which are proccessed during each Bot run (modification).]]></item>
+	</category>
+	
+	<category name="wcf.acp.uzbot">
+		<item name="wcf.acp.uzbot.log.lexicon.entry.modified"><![CDATA[{$action} - affected entries: {$entryIDs}]]></item>
+		<item name="wcf.acp.uzbot.log.lexicon.entry.affected"><![CDATA[Number of affected entries iaw condition: {$count}]]></item>
+		<item name="wcf.acp.uzbot.type.lexicon_change"><![CDATA[Lexicon - Entry - Change]]></item>
+		<item name="wcf.acp.uzbot.type.lexicon_modification"><![CDATA[Lexicon - Entry - Modification]]></item>
+		<item name="wcf.acp.uzbot.type.lexicon_new"><![CDATA[Lexicon - Entry - New]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.action.changed"><![CDATA[edited]]></item>
+		<item name="wcf.acp.uzbot.lexicon.action.deleted"><![CDATA[deleted]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.condition.create"><![CDATA[Days since creation]]></item>
+		<item name="wcf.acp.uzbot.lexicon.condition.edit"><![CDATA[Days since last change]]></item>
+		<item name="wcf.acp.uzbot.lexicon.condition.state"><![CDATA[Status]]></item>
+		<item name="wcf.acp.uzbot.lexicon.condition.state.description"><![CDATA[Status of entry.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.condition.username"><![CDATA[Author]]></item>
+		<item name="wcf.acp.uzbot.lexicon.condition.username.description"><![CDATA[Username of the author of the entry]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.entryChange.action"><![CDATA[Monitored Actions]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryChange.action.error.notConfigured"><![CDATA[At least one action must be selected.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryChange.delete"><![CDATA[Monitor deletion]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryChange.update"><![CDATA[Monitor update]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action"><![CDATA[Action(s) to be executed]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.error.notConfigured"><![CDATA[At least one action must be selected.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.deleteLabels"><![CDATA[Entry labels deleted]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.done"><![CDATA[Entry locked]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.undone"><![CDATA[Entry unlocked]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.disable"><![CDATA[Entries disabled]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.enable"><![CDATA[Entries enabled]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.action.setLabels"><![CDATA[Entries labels set]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.error.executerInvalid"><![CDATA[The executing user is invalid. The Bot was disabled.]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isCompleted"><![CDATA[Locked]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isNotCompleted"><![CDATA[Not locked]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isCompleted.error.conflict"><![CDATA[You cannot simultaneously select “Locked” and “Not locked”.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isDisabled"><![CDATA[Awaiting Approval]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isEnabled"><![CDATA[Approved]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isDisabled.error.conflict"><![CDATA[You cannot simultaneously select “Awaiting Approval” and “Approved”.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.hasLabels"><![CDATA[Has Labels]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.hasNoLabels"><![CDATA[Has no Labels]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.hasLabels.error.conflict"><![CDATA[You cannot simultaneously select “Has Labels” and “Has no Labels”.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isEdited"><![CDATA[Is edited]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isNotEdited"><![CDATA[Is not edited]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.state.isEdited.error.conflict"><![CDATA[You cannot simultaneously select “Is edited” and “Is not edited”.]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.entry.condition"><![CDATA[Entry Conditions]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entry.condition.description"><![CDATA[Only entries which fulfill the following conditions will be affected by the action(s). The Bot will be applied to all entries if no conditions are selected.]]></item>
+		
+		<item name="wcf.acp.uzbot.lexicon.entryModification.category"><![CDATA[In category]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.complete"><![CDATA[Lock]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.uncomplete"><![CDATA[Unlock]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.disable"><![CDATA[Deactivate]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.enable"><![CDATA[Activate]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.setLabels"><![CDATA[Set labels]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.executer"><![CDATA[Executing User]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.executer.description"><![CDATA[This user is needed for the entry change log.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.executer.error.empty"><![CDATA[You must enter a username.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.executer.error.invalid"><![CDATA[The user does not exist.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.noFound"><![CDATA[No entries found.]]></item>
+		<item name="wcf.acp.uzbot.lexicon.entryModification.setting"><![CDATA[Settings]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.200"><![CDATA[Lexicon - Entry - Change]]></item>
+		<item name="wcf.acp.uzbot.help.type.200.description"><![CDATA[<p>This Bot monitors the modification or deletion of entries and sends a notification when somebody has edited or deleted an entry.</p>
+<p>The author of the entry is affected user and can be directly addressed.</p>
+<br><p>By configuration of general user conditions the monitoring can be limited to certain authors.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[action]</strong></td><td>Action executed by the user: “edited” or “deleted”</td></tr>
+<tr><td><strong>[count]</strong></td><td>Total number of modified / deleted entries (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Number of entries of the affected user</td></tr>
+<tr><td><strong>[entry-id]</strong></td><td>ID of the modified entry</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link to the entry</td></tr>
+<tr><td><strong>[entry-subject]</strong></td><td>Title of entry</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Text of entry in simplified formatting</td></tr>
+<tr><td><strong>[reason]</strong></td><td>Reason for the modification as given by the user</td></tr>
+<tr><td><strong>[changing-username]</strong></td><td>Name of the user changing / deleting the entry</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.201"><![CDATA[Lexicon - Entry - Modification]]></item>
+		<item name="wcf.acp.uzbot.help.type.201.description"><![CDATA[<p>This Bot modifies selected entries and sends a notification when a modification action was applied to the entries. The number of entries per cronjob run can be configured (default: 50).</p>
+<p>The authors of the entries are the affected users and can be directly addressed.</p>
+<br><p>You may choose more than one action. Actions will be executed according to the sequence in the Bot configuration.</p>
+<br><p>Notice: one notification will be created for each affected user. This is valid for notifications without individual receiver, like article, threads and posts, too. Depending on configuration and number of modified entries, a lot of notifications may be created.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[action]</strong></td><td>Action (e.g. “enabled”, “label changed”)</td></tr>
+<tr><td><strong>[count]</strong></td><td>Total number of affected entries</td></tr>
+<tr><td><strong>[object-ids]</strong></td><td>IDs of the affected entries</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.202"><![CDATA[Lexicon - Entry - New]]></item>
+		<item name="wcf.acp.uzbot.help.type.202.description"><![CDATA[<p>This bot monitors the publication of entries and sends a notification when a user or guest has created a new entry and the entry is published / enabled.</p>
+<p>The author of the entry is the affected user and can be directly addressed.</p>
+<br><p>By configuring the general user conditions, specific users can be monitored.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Total number of published entries (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Number of entries created by the affected user (always 1)</td></tr>
+<tr><td><strong>[entry-link]</strong></td><td>Link to the entry</td></tr>
+<tr><td><strong>[entry-subject]</strong></td><td>Title of the entry</td></tr>
+<tr><td><strong>[entry-text]</strong></td><td>Text of the entry in simplified formatting</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+	</category>
+</language>
