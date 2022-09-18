@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/cronjob.xsd">
-	<import>
-		<cronjob name="uzbotLexiconModify">
-			<classname>lexicon\system\cronjob\UzbotLexiconModificationCronjob</classname>
-			<description><![CDATA[Community Bot - Lexicon Modification]]></description>
-			<description language="de"><![CDATA[Community Bot - Lexikon Bearbeitung]]></description>
-			<startminute>*/30</startminute>
-			<starthour>*</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-	</import>
+    <import>
+        <cronjob name="uzbotLexiconModify">
+            <classname>lexicon\system\cronjob\UzbotLexiconModificationCronjob</classname>
+            <description><![CDATA[Community Bot - Lexicon Modification]]></description>
+            <description language="de"><![CDATA[Community Bot - Lexikon Bearbeitung]]></description>
+            <startminute>*/30</startminute>
+            <starthour>*</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+    </import>
 </data>
